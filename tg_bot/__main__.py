@@ -148,6 +148,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
                                                                                  ]]))
+                                                                                   InlineKeyboardButton(text="xxxtentacion", 
+                                                                       url="https://t.me/its420somewhere") 
 
     else:
         update.effective_message.reply_text("Yuss, I am Already ONline")
