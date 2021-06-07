@@ -144,11 +144,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/Pabloescobar_colombia")],
                                                                                    [InlineKeyboardButton(text="ADD THIS BOT TO YOUR GROUP",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username))
-                                                                                   
-                                                                       
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+                                                                                    InlineKeyboardButton(text="Source Code",
+                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                                 ]]))
                                                                                  
-
 
 
     else:
